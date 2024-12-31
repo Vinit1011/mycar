@@ -5,12 +5,14 @@ from email.mime.multipart import MIMEMultipart
 
 # Sample tour packages
 packages = [
-    {"name": "Beach Getaway", "price": "$500", "description": "Enjoy the sun and sand."},
-    {"name": "Mountain Adventure", "price": "$800", "description": "Hike and explore the peaks."},
+    {"name": "Juhu Beach", "price": "1500", "description": "Enjoy the sun and sand."},
+    {"name": "Lonavala", "price": "1000", "description": "Hike and explore the peaks."},
+    {"name": "Pick-up & Drop", "price": "1000", "description": "Get the car at airpot and from hotel to airpot"},
+    {"name": "Side seen", "price": "5000", "description": "Enjoy full side seen of mumbai suburban area"},
 ]
 
 # Home Page
-st.title("Welcome to [Your Business Name]")
+st.title("Welcome to Dubey tours and travels")
 st.image("i.jpg", use_container_width=True)
 st.markdown("Discover amazing tours and travels with us!")
 
