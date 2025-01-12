@@ -33,7 +33,7 @@ tour = st.selectbox("Select Tour", [pkg["name"] for pkg in packages])
 def send_email_to_company(name, email, tour):
     sender_email = "dvinit061@gmail.com"  # Your Gmail address
     sender_password = "vozx lmym ojni jcdn"  # Your Gmail App Password
-    receiver_email = "dvinit061@gmail.com"  # Your father's email address
+    receiver_email = "dubeyashok9167@gmail.com"  # Your father's email address
 
     # Email Content to send to your father (the travel company)
     subject = "New Booking Received"
